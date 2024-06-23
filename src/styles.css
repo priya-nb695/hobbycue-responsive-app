@@ -115,7 +115,7 @@ gap: 88px; */
 border-radius: 8px;
 height:40px;
 margin-top:15px;
-border: 1px solid #8064A2;
+border: 1px solid blue;
  background: #F7F5F9;
 font-size: medium;
 font-weight: bold;
@@ -124,11 +124,11 @@ opacity: 0px;
 
 }
 .btn-sign-white{
-  background-color:#8064A2;
+  background-color:blue;
   color: #fff;
   font-size: medium;
 font-weight: bold;
-border: 1px solid #8064A2;
+border: 1px solid blue;
 border-radius: 8px;
 height:40px;
 }
@@ -147,7 +147,7 @@ footer {
   color: #fff;
 }
 .btn-footer-invite{
-  background-color: #8064A2;;
+  background-color: blue;;
   border-radius:8px;
   color:white;
   border:1px grey
@@ -175,8 +175,8 @@ gap: 0px;
 height: 40px; 
 /* top: 20px; */
 border-radius: 8px;
-border: 1px solid #8064A2;
-color: #8064A2;
+border: 1px solid blue;
+color: blue;
 background-color: white;
 opacity: 0px;
 
