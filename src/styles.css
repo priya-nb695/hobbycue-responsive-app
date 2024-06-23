@@ -119,7 +119,7 @@ footer {
 }
 .btn-footer-invite{
   background-color: #8064A2
-;;
+;
   border-radius:8px;
   color:white;
   border:1px grey
@@ -139,22 +139,26 @@ footer .btn-primary {
 }
 
 .btn-link-button{
-  /* width: 92px; */
-/* height: 40px;  */
-/* top: 20px; */
-/* left: 1228px; */
 gap: 0px;
 height: 40px; 
-/* top: 20px; */
 border-radius: 8px;
-border: 1px solid #8064A2
-;
-color: #8064A2
-;
+border: 1px solid #8064A2;
+color: #8064A2;
 background-color: white;
-
-
 }
+.ptn-link-button{
+  gap: 0px;
+ width: 100px;
+  height: 40px; 
+  border-radius: 6px;
+  border: 1px solid #8064A2;
+  color: #8064A2;
+  /* background-color: white; */
+  }
+
+  /* .ptn-link-button:hover{
+   background-color: grey;
+  } */
 
  /* 768 */
 @media (max-width: 530px) {
@@ -223,6 +227,25 @@ background-color: #fff;
  border-bottom: 1px solid gray;
 
 }
+.nav-link{
+  color:gray  !important; 
+  font-weight: bold;
+  background-color:#F7F5F9 !important;
+  border: none !important;
+  
+}
+.nav-link.active{
+  color:#8064A2  !important;
+  border-bottom: 2px solid #8064A2 !important;
+}
+.nav-tabs{
+  border: none !important;
+  border-bottom: 0 !important;
+}
+/* .nav-tabs .nav-link.active {
+  border: none !important;
+  border-bottom: 0 !important;
+} */
 /* Dropdown parent positioning */
 .nav-item.dropdown {
   position: relative;
@@ -307,7 +330,7 @@ font-weight: bold;
 }
 .card-program .card:hover {
   background-color: rgb(49, 121, 228); /* Lemon chiffon */
-  color: #8b4513; /* Saddle brown */
+  color: white; /* Saddle brown */
 }
 
 /* General card styling */
@@ -358,4 +381,26 @@ footer{
       margin-left: -12px;
    
   }
+ 
+}
+@media (max-width:767px){
+  .ptn-link-button{
+      width:200px;
+   
+  }
+  .nav-tabs{
+    justify-content: center !important;
+ }
+}
+
+
+
+.custom-card {
+  border: 1px solid #9ba6b173 ; 
+  border-radius: 6px; 
+  transition: border-color 0.3s ease; /* Optional: Add transition for border color change */
+}
+
+.custom-card:hover {
+  border-color: #333; /* Custom border color on hover */
 }

@@ -1,32 +1,4 @@
-// // src/ImageSection.js
-// import React from 'react';
-// import { Container, Row, Col, Button } from 'react-bootstrap';
 
-// const = () => {
-//   return (
-//     <div className="image-section py-5">
-//       <Container>
-//         <Row className="text-center mb-5">
-//           <Col>
-//             <h2>Your <span style={{color: '#6c63ff'}}>Hobby</span>, Your <span style={{color: '#6c63ff'}}>Community</span>...</h2>
-//             <Button variant="primary" className="mt-3">Get started</Button>
-//           </Col>
-//         </Row>
-//         <Row>
-//           <Col>
-//             <img src="path/to/your/image.jpg" alt="Community" className="img-fluid" />
-//           </Col>
-//         </Row>
-//       </Container>
-//     </div>
-//   );
-// }
-
-// export default ImageSection;
-
-
-
-// src/ImageSection.js
 import React from 'react';
 import GroupImage from '../Images/GroupImage.png'
 const ImageSection = () => {

@@ -12,7 +12,6 @@ import IconSearch from '../Icons/IconSearch.png';
 import ShoppingCart from '../Icons/ShoppingCart.png';
 import ArrowExpand from '../Icons/ArrowExpand.png' ;
 
-//import ArrowExpand from '../Icons/ArrowExpand.png';
 
 
 function Header() {
