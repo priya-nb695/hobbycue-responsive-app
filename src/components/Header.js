@@ -28,7 +28,7 @@ function Header() {
     };
   return (
     <header className="d-flex justify-content-between align-items-center header">
-      <div className="d-flex align-items-center">
+      <div className="d-flex align-items-center first-header">
         <img src={HobbyCueLogo} alt="Logo"  />
 
         <div className="input-group ms-3 search-bar">

@@ -353,3 +353,9 @@ footer{
    /* align-items: center; */
   }
 }
+@media (max-width: 390px){
+  .first-header{
+      margin-left: -12px;
+   
+  }
+}
