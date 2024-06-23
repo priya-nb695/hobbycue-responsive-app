@@ -394,6 +394,43 @@ footer{
 }
 
 
+/* Custom style for the "Continue" button */
+
+
+.purple-button:hover {
+  background-color: darkpurple;
+  border-color: darkpurple;
+}
+
+@media (max-width: 767px) {
+  .btn-sign .d-none { 
+    display: none !important;
+  }
+  .btn-sign .d-sm-none {
+    display: inline !important;
+  } 
+ 
+  /*  .d-sm-none {
+    display: none !important;
+  } */
+  .bbtn-sign {
+    background-color: #8064A2 !important;
+    color:white;
+  }
+  .purple-button {
+  background-color: #8064A2;
+  color:white;
+}
+}
+
+
+.bbtn-sign {
+  background-color: #8064A2 !important;
+  color:white;
+}
+
+
+
 
 .custom-card {
   border: 1px solid #9ba6b173 ; 

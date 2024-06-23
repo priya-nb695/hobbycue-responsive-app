@@ -1,3 +1,4 @@
+
 import React from 'react';
 import Google from "../Icons/Google.png";
 import Facebook from '../Icons/Facebook.png';
@@ -28,7 +29,7 @@ function SignInForm() {
               Forgot password
             </div>
           </div>
-          <button type="submit" className="btn-sign btn-primary w-100">Continue</button>
+          <button type="submit" className="btn-sign btn-primary w-100 purple-button">Continue</button>
         </form>
         <div className="divider"><span>Or connect with</span></div>
         <button className="btn-sign btn-outline-primary w-100 mb-2 d-flex align-items-center">
@@ -71,7 +72,7 @@ function SignInForm() {
               Forgot password
             </div>
           </div>
-          <button type="submit" className="btn-sign btn-primary w-100">Continue</button>
+          <button type="submit" className="btn-sign btn-primary w-100 purple-button">Continue</button>
         </form>
       </div>
     </div>
@@ -79,3 +80,4 @@ function SignInForm() {
 }
 
 export default SignInForm;
+

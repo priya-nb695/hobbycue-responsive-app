@@ -1,3 +1,4 @@
+
 import React from 'react';
 import Google from "../Icons/Google.png";
 import Facebook from '../Icons/Facebook.png';
@@ -20,7 +21,7 @@ function JoinInForm() {
           <div className="text-center text-muted mb-2">
             By continuing, you agree to our <span className='privacy-span'>Terms of Service</span> and <span className='privacy-span'>Privacy Policy.</span>
           </div>
-          <button type="submit" className="btn-sign-white btn-primary w-100">Agree and Continue</button>
+          <button type="submit" className="btn-sign  bbtn-sign btn-primary w-100"><span className="d-sm-none">Continue</span><span className="d-none d-sm-inline">Agree and Continue</span></button>
         </form>
         <div className="divider"><span>Or connect with</span></div>
         <button className="btn-sign btn-outline-primary w-100 mb-2 d-flex align-items-center">
@@ -56,7 +57,7 @@ function JoinInForm() {
           <div className="text-center text-muted mb-2">
             By continuing, you agree to our <span className='privacy-span'>Terms of Service</span> and <span className='privacy-span'>Privacy Policy.</span>
           </div>
-          <button type="submit" className="btn-sign-white btn-primary w-100">Agree and Continue</button>
+          <button type="submit" className="btn-sign bbtn-sign btn-primary w-100"><span className="d-sm-none">Continue</span><span className="d-none d-sm-inline">Agree and Continue</span></button>
         </form>
       </div>
     </div>
@@ -64,3 +65,4 @@ function JoinInForm() {
 }
 
 export default JoinInForm;
+
