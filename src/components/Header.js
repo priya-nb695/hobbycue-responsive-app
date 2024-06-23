@@ -27,7 +27,7 @@ function Header() {
       setIsHobbiesDropdownOpen(!isHobbiesDropdownOpen);
     };
   return (
-    <header className="d-flex justify-content-between align-items-center py-3 px-3 header">
+    <header className="d-flex justify-content-between align-items-center header">
       <div className="d-flex align-items-center">
         <img src={HobbyCueLogo} alt="Logo"  />
 
